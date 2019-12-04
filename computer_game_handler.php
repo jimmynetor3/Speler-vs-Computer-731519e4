@@ -90,6 +90,10 @@
                 break;
             case 2:
                 echo('<h1>Computer won !</h1>');
+                echo ("<h1>Player 1 won !</h1>");
+                break;
+            case 2:
+                echo('<h1>Computer won !</h1>');
                 break;
             case 3:
                 echo('<h1>Draw!</h1>');
