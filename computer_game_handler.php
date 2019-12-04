@@ -10,10 +10,6 @@
     <h1>Rock Paper Scissors</h1>
     <hr>
     <?php
-        if (isset($_GET["p1c"]) || isset($GET["p2c"])) {} else {
-            header("Location: game.php");
-        }
-
         $options = array(
             'Rock',
             'Paper',
@@ -86,10 +82,6 @@
 
         switch ($won) {
             case 1:
-                echo ("<h1>Player 1 won !</h1>");
-                break;
-            case 2:
-                echo('<h1>Bob won !</h1>');
                 echo ("<h1>Player 1 won !</h1>");
                 break;
             case 2:

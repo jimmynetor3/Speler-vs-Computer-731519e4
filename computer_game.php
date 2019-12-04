@@ -9,9 +9,9 @@
 <body>
 
     <form action="computer_game_handler.php" method="GET">  
-        <button type="submit" name="button" value="Rock" >Rock</button>
-        <button type="submit" name="button" value="Paper" >Paper</button>
-        <button type="submit" name="button" value="Scissors" >Scissors</button>
+        <button type="submit" name="p1c" value="Rock" >Rock</button>
+        <button type="submit" name="p1c" value="Paper" >Paper</button>
+        <button type="submit" name="p1c" value="Scissors" >Scissors</button>
     </form>
 </body>
 </html>
