@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+<a href="pvp_game.php">player v player</a>
+
+<a href="computer_game.php">player v bob </a>
 </body>
 </html>

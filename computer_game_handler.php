@@ -21,18 +21,18 @@
         );
 
         $player1 = $_GET["p1c"];
-        $computer = $options[
+        $Bob = $options[
             array_rand($options)
         ];
 
         echo "<h1>Player one picked " . $player1 . ".</h1>";
-        echo "<h1>Computer picked " . $computer . ".</h1>";
+        echo "<h1>Bob picked " . $Bob . ".</h1>";
 
         $won = null;
 
         switch ($player1) {
             case 'Rock':
-                switch ($computer) {
+                switch ($Bob) {
                     case 'Rock':
                         $won = 3;
                         break;
@@ -48,7 +48,7 @@
                 }
                 break;
             case 'Paper': 
-                switch ($computer) {
+                switch ($Bob) {
                     case 'Rock':
                         $won = 1;
                         break;
@@ -64,7 +64,7 @@
                 }
                 break;
             case 'Scissors':
-                switch ($computer) {
+                switch ($Bob) {
                     case 'Rock':
                         $won = 2;
                         break;
@@ -89,11 +89,11 @@
                 echo ("<h1>Player 1 won !</h1>");
                 break;
             case 2:
-                echo('<h1>Computer won !</h1>');
+                echo('<h1>Bob won !</h1>');
                 echo ("<h1>Player 1 won !</h1>");
                 break;
             case 2:
-                echo('<h1>Computer won !</h1>');
+                echo('<h1>Bob won !</h1>');
                 break;
             case 3:
                 echo('<h1>Draw!</h1>');
